@@ -36,7 +36,7 @@ Google Cloud Platform (GCP) Assessment
 
 
 #### Q6. You want to configure services to host a mobile application that uses TensorFlow Lite models. Which services should you use?
-- [ ] Cloud Functions and ML Kit
+- [ ] Cloud Functions and Kit
 - [ ] Firebase and AI Platform jobs
 - [x] Firebase and ML Kit
 - [ ] Cloud Functions and AI Platform jobs
@@ -124,14 +124,88 @@ Google Cloud Platform (GCP) Assessment
 - [ ] Cloud Run on Google Kubernetes Engine
 - [x] Google Kubernetes Engine
 
-#### Q17. Which command adds a column family named cf1 to your Bigtable table named my-table?
+#### Q18. Which command adds a column family named cf1 to your Bigtable table named my-table?
 - [ ] cbt createfamily my-table cf1 
 - [ ] gcloud createfamily my-table cf1
 - [x] gcloud createfamily cf1 my-table cf1
 - [ ] cbt createfamily cf1 my-table
 
-#### Q18. You need to configure a data retention policy for a Cloud Storage bucket to govem how long objects in the bucket must be retained. What feature do you enable?
+#### Q19. You need to configure a data retention policy for a Cloud Storage bucket to govem how long objects in the bucket must be retained. What feature do you enable?
 - [ ] Requester Pays 
 - [ ] Bucket Lock
 - [x] Bucket Policy Only
 - [ ] Encryption Type
+
+#### Q20. You are concerned about data egress charges for files in a Cloud Storage bucket. What configuration change should you make?
+- [ ] Changue the default storage class from regional to multi-regional
+- [ ] Enable Requester Pays on the project
+- [x] Change the default storage class from multi-regional to regional
+- [ ] Enable Requester Pays on the bucket.
+
+
+#### Q21. You want to use GCP-preferred base container images. Where can you users find these images?
+- [ ] Compute Engine base images
+- [ ] Google Kubernetes Engine base images
+- [ ] GCP Marketplace
+- [ ] Docker Hub
+
+
+#### Q22. You need to set a bucket storage class for a data that will be accessed once a month or less. Which type do you select?
+- [ ] multi-regional
+- [ ] nearline
+- [ ] coldline
+- [ ] regional
+
+
+#### Q23. You want to quickly evaluate Cloud Filestore. What are the steps, in order, to set up a test environment?
+
+- [ ] 1. Create a Cloud Filestore instance.
+      2. Mount the fileshare from that instance on a client VM instance.
+      3. Create a file on the mounted fileshare.
+      4. Create a Compute Engine VM to be the client.
+      
+- [ ] 1. Create a Compute Engine VM to be the client.
+      2. Mount the fileshare from that instance on a client VM instance.
+      3. Create a file on the mounted fileshare.
+      
+- [ ] 1. Create a Cloud Filestore instance.
+      2. Mount the fileshare from that instance on a client VM instance.
+      3. Create a Compute Engine VM to be the client.
+      4. Create a file on the mounted fileshare.
+
+- [x] 1. Create a Compute Engine VM to be the client.
+      2. Create a Cloud Filestore instance.
+      3. Mount the fileshare from that instance on a client VM instance.
+      4. Create a file on the mounted fileshare.
+
+#### Q24. What feature do you need to enable to support load balancing and autoscaling managed instance groups for Compute Engine?
+- [ ] metadata
+- [ ] health checks
+- [ ] security scans
+- [ ] network endpoint groups
+
+#### Q25. You are designing security for an IoT device application. What best practices should you include in your design?
+- [ ] Use a public private key pair for each device. Keep the private key secret.
+- [x] Use a private key for each device. Keep the private key secret.
+- [ ] Use a public private key pair for each device. Keep the public key secret.
+- [ ] Use a public key for each device. Keep the public key secret.
+
+#### Q25. You want to select a fully managed serverless platform for developing and hosting web applications at scale on GCP.
+Which service should you choose?
+- [ ] Google Compute Engine
+- [ ] Cloud Functions
+- [ ] Google App Engine
+- [ ] Google Kubernetes Engine
+
+#### Q26. How do you configure Cloud Build to rebuild your image when a change is made to the source  code?
+- [ ] Add a Cloud Build Trigger and set it to fire on commit to associated repository. 
+- [ ] Add a Cloud Build function. and set it to fire on commit to associated repository.
+- [ ] Add a Cloud Build function, and set it to fire on commit to associated registry
+- [ ] Add a Cloud Build trigger, and set it to fire on commit to associated registry.
+
+
+
+
+
+
+
